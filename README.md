@@ -1,8 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# WorldWise 🌍  
+[![Vercel Deploy Status](https://img.shields.io/vercel/deploy/CI/Deployment)](https://world-wise-henna.vercel.app/)
 
-Currently, two official plugins are available:
+**WorldWise** je interaktivna aplikacija za praćenje gradova i lokacija koje ste posjetili širom svijeta.  
+Omogućuje korisnicima da dodaju, pregledavaju i uređuju svoja putovanja putem intuitivne karte.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funkcionalnosti
+- Dodavanje posjećenih lokacija klikom na kartu
+- Pohrana naziva grada i datuma putovanja
+- Pregled i uređivanje svih unesenih lokacija
+- Filtriranje i upravljanje putovanjima
+
+## 🛠️ Tehnologije
+- **Frontend**: React.js (Vite)
+- **Mape**: React-Leaflet + OpenStreetMap
+- **Backend**: Nema zasebnog servera (sve lokalno, koristi localStorage za spremanje podataka)
+- **Deployment**: Vercel
+
+## 🚀 Pokretanje projekta lokalno
+
+1. Klonirajte repozitorij:
+   ```bash
+   git clone https://github.com/Kico611/WorldWise.git
+   cd WorldWise
+   ```
+
+2. Instalirajte ovisnosti:
+   ```bash
+   npm install
+   ```
+
+3. Pokrenite razvojni server:
+   ```bash
+   npm run dev
+   ```
+
+4. Otvorite aplikaciju na [http://localhost:5173](http://localhost:5173)
+
+## 🌎 Demo
+Pogledajte aktivnu verziju aplikacije ovdje:  
+👉 [WorldWise Live](https://world-wise-henna.vercel.app/)
+
