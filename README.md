@@ -1,6 +1,5 @@
 
 # WorldWise 🌍  
-[![Vercel Deploy Status](https://img.shields.io/vercel/deploy/CI/Deployment)](https://world-wise-henna.vercel.app/)
 
 **WorldWise** je interaktivna aplikacija za praćenje gradova i lokacija koje ste posjetili širom svijeta.  
 Omogućuje korisnicima da dodaju, pregledavaju i uređuju svoja putovanja putem intuitivne karte.
